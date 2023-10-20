@@ -34,3 +34,19 @@
 .ex-4-square:hover{
     opacity: 0;
 }
+
+/* esercizio5 */
+
+.ex-5-square{
+    transition: 1s;
+}
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active{
+    width: 20px;
+    height: 20px;
+}
