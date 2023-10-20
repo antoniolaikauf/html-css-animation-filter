@@ -77,3 +77,15 @@
     border-radius: 20px;
     filter: brightness(1.5) saturate(1);
 }
+
+/* esercizio9 */
+
+.ex-9-img{
+    transition: 1s;
+}
+
+.ex-9-img:hover{
+    border-radius: 20px;
+    transform: scale(1.2);
+    filter: brightness(1.5) saturate(3);
+}
