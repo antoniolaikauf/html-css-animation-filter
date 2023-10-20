@@ -56,3 +56,13 @@
 .ex-6-img:hover {
    filter: grayscale(1);
 }
+
+/* esercizio7 */
+
+.ex-7-img{
+    transition:all 1s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1) blur(5px);
+}
