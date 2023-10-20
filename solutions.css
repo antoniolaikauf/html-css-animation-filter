@@ -50,3 +50,9 @@
     width: 20px;
     height: 20px;
 }
+
+/* esercizio6 */
+
+.ex-6-img:hover {
+   filter: grayscale(1);
+}
