@@ -122,11 +122,10 @@
 
 /* esercizio12 */
 
-.ex-12-top-white{
+.ex-12-button:hover .ex-12-top-white{
     animation-name: sopra;
     animation-duration: 5s;
     animation-timing-function: linear;
-    animation-iteration-count: 2;
 }
 
 @keyframes sopra {
@@ -146,11 +145,10 @@
     }
 }
 
-.ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white{
     animation-name: sotto;
     animation-duration: 5s;
     animation-timing-function: linear;
-    animation-iteration-count: 2;
 }
 
 @keyframes sotto {
@@ -167,5 +165,75 @@
     100%{
         bottom: -10px;
         right: 20%;
+    }
+}
+
+/* esercizio13 */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: sopra13;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sopra13 {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    25%{
+        top: -10px;
+        left:calc(100% - 30px);
+    }
+    50%{
+        top: 100%;
+        left: calc(100% - 30px);
+    }
+    75%{
+        top: 100%;
+        left: -10px;
+    }
+    90%{
+        top: -10px;
+        left: -10px;
+    }
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: sotto13;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sotto13 {
+    0%{
+        bottom: -10px;
+        right: 10%;
+    }
+    25%{
+        bottom: -10px;
+        right:calc(100% - 50px);
+    }
+    50%{
+        bottom: 100%;
+        right: calc(100% - 50px);
+    }
+    75%{
+        bottom: 100%;
+        right: -10px;
+    }
+    90%{
+        bottom: -10px;
+        right: -10px;
+    }
+    100%{
+        bottom: -10px;
+        right: 10%;
     }
 }
