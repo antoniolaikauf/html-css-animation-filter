@@ -89,3 +89,33 @@
     transform: scale(1.2);
     filter: brightness(1.5) saturate(3);
 }
+
+/* esercizio10 */
+
+.ex-10-icon{
+    animation: rotazione;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotazione  {
+    from { 
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+        
+}
+
+/* esercizio11 */
+
+.ex-11-icon{
+    transition:all 1s ;
+}
+
+.ex-11-icon:hover{
+    transform: rotate(300deg);
+    transition: 3s;
+}
